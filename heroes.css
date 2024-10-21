@@ -1,0 +1,43 @@
+body {
+    font-family: sans-serif;
+     background-image:linear-gradient(#FFF600,#DD00FF);
+}
+
+header{
+   text-align: center;
+}
+
+main{
+   text-align: center;
+}
+
+h2{
+    border-bottom:solid black 5px;
+}
+
+p{
+    background-color:#FFCD6A;
+}
+
+p{
+    background-color:rgb(255, 0, 0);
+    color:white;
+    padding: 10px;
+    border-radius: 15px;
+    border: 5px dotted black;
+}
+
+.hero{
+    display:flex;
+    flex-direction:column;
+    gap:20px;
+    align-items:center;
+}
+
+.hero a{
+    background-color:rgb(38, 255, 0);
+    color:rgb(0, 0, 0);
+    padding: 10px;
+    border: 10px double rgb(29, 173, 0);
+    text-decoration:none;
+}
